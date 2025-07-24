@@ -1,0 +1,46 @@
+.discount-scroll-container {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+
+.discount-scroll {
+  display: flex;
+  animation: discount-scroll 25s linear infinite;
+  width: max-content;
+}
+
+.discount-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 20px;
+  white-space: nowrap;
+}
+
+.discount-item span {
+  font-size: 1.1rem;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  transition: transform 0.3s ease;
+}
+
+.discount-item:hover span {
+  transform: scale(1.05);
+}
+
+@keyframes discount-scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+@media (max-width: 768px) {
+  .discount-item span {
+    font-size: 0.9rem;
+  }
+}
