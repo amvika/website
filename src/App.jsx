@@ -20,7 +20,7 @@ import CA from './Pages/CA'
 import Footer from './Components/Footer'
 import AmvikaSoftware from './Pages/AmbikaSoftware/Index'
 import GrowWith from './Pages/GrowWithUs'
-import AboutUs from './Pages/AboutUS/Index'
+import AboutUs from './Pages/AboutUS/Index.jsx'
 import ContactUs from './Pages/ContactPage'
 
 
