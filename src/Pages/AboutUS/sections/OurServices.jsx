@@ -2,7 +2,7 @@ import React, { useRef } from 'react';
 import { motion, useInView } from 'framer-motion';
 import { ArrowRight, Users, Briefcase, Rocket } from 'lucide-react';
 import talentConnectorImg from '../Assets/talent-connector.png';
-import businessOwnerImg from '../assets/business-owner.png';
+
 import skillBasedImg from '../assets/skill-based.png';
 
 const OurServices = () => {
@@ -23,7 +23,7 @@ const OurServices = () => {
       id: 2,
       title: 'Independent Business Owner',
       icon: Briefcase,
-      image: businessOwnerImg,
+      image: 'https://st2.depositphotos.com/1005682/11570/i/450/depositphotos_115702350-indian-businessman-at-office.jpg',
       role: 'Launch your own business offering services like GST registration, tax consultation, audit support, accounting, and the brain report service.',
       opportunity: 'Even without prior expertise, a comprehensive 1-hour training equips you to offer these services effectively from home.',
       earningPotential: 'Substantial income with the potential to earn crores annually.'
