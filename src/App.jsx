@@ -20,10 +20,10 @@ import CA from './Pages/CA'
 import Footer from './Components/Footer'
 import AmvikaSoftware from './Pages/AmbikaSoftware/Index'
 import GrowWith from './Pages/GrowWithUs'
-import AboutUs from './Pages/AboutUs'
+import AboutUs from './Pages/AboutUS'
 import ContactUs from './Pages/ContactPage'
 import Website from './Pages/WebsiteDevelopment'
-import OurFrancise from './Pages/AboutUs/sections/OurFrancises'
+import OurFrancise from './Pages/AboutUS/sections/OurFrancises.jsx'
 
 const App = () => {
   return (
