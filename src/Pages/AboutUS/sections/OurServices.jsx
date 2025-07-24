@@ -1,9 +1,9 @@
 import React, { useRef } from 'react';
 import { motion, useInView } from 'framer-motion';
 import { ArrowRight, Users, Briefcase, Rocket } from 'lucide-react';
-import talentConnectorImg from '../Assets/talent-connector.png';
 
-import skillBasedImg from '../assets/skill-based.png';
+
+
 
 const OurServices = () => {
   const sectionRef = useRef(null);
@@ -14,7 +14,7 @@ const OurServices = () => {
       id: 1,
       title: 'The Talent Connector',
       icon: Users,
-      image: talentConnectorImg,
+      image: 'https://img.freepik.com/free-vector/hand-drawn-flat-design-api-illustration_52683-84601.jpg?semt=ais_hybrid&w=740',
       role: 'Identify individuals in your network and introduce them to the brain analysis service, which provides an "Individual Brain Report" through eye analysis.',
       opportunity: 'Help others understand their unique capabilities and guide them towards fulfilling career paths.',
       earningPotential: 'Unlimited; dedicating as little as 1 hour per day can potentially yield significant earnings.'
@@ -32,7 +32,7 @@ const OurServices = () => {
       id: 3,
       title: 'Skill-Based Earning',
       icon: Rocket,
-      image: skillBasedImg,
+      image: 'https://www.google.com/url?sa=i&url=https%3A%2F%2Fclickatech.co.za%2Fhow-social-media-management-can-boost-your-business%2F&psig=AOvVaw3tECNwO6AjchoXR3Sw7-jw&ust=1753464823725000&source=images&cd=vfe&opi=89978449&ved=0CBUQjRxqFwoTCNDQvtKD1o4DFQAAAAAdAAAAABAL',
       role: 'Develop in-demand skills through Amvika NEXT\'s training programs and leverage them to earn a substantial income from home.',
       opportunity: 'Access training in high-demand skills that can be performed remotely, tapping into a vast market of opportunities.',
       earningPotential: 'By acquiring the right skills, you can earn lakhs of rupees per month working from the comfort of your home.'
