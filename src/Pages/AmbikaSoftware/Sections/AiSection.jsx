@@ -251,7 +251,7 @@ const AiSection = () => {
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
           >
-            Genrate Report <ArrowRight size={20} />
+            Generate Report <ArrowRight size={20} />
           </motion.a>
           
         </div>
